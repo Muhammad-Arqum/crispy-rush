@@ -1,0 +1,109 @@
+/* navbar */
+.container{
+    padding: 0% 2%;
+  }
+  .nav-item{
+    padding: 0px 18px;
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: "Lilita One";
+  }
+  .firstimage{
+      width:  92px;
+      height: 92px;
+  }
+  
+  /* Style the image container to set a new size */
+  .secondimage {
+      width: 60%; /* Increase width by 50%, adjust this value as needed */
+      max-width: 100%; /* Ensure it doesn't exceed the parent's width */
+      overflow: hidden; /* Hide overflow if the image gets too large */
+      margin: 20px 20px;
+      padding-top: 2rem;
+      /* transform: rotate(-15deg); */
+    }
+    
+    /* Ensure the image scales proportionally */
+    .secondimage img {
+      width: 100%; /* The image takes 100% of the container's width */
+      height: auto; /* The height adjusts automatically to maintain the aspect ratio */
+      display: block; /* Remove any extra space below the image */
+    }
+    
+        
+  #title{
+  background-color: #FFB22C;
+  }
+  body{
+    font-family: "Lilita One";
+    background-color: #FFB22C;
+  }
+  h1 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 4rem;
+    line-height: 1.5;
+    font-size: 3rem;
+  }
+  
+  .container-fluid{
+    padding: 3% 10%;
+  
+  }
+  /* download-button */
+  .download-button{
+    margin: 5% 3% 5% 0%;
+  }
+  /* products */
+
+#products{
+padding: 4% 15%;
+
+}
+
+.flavour{
+  padding-top: 0%;
+  
+}
+.figure-img{
+  max-width: 100%;
+  width: 90%;
+  
+}
+.figure-img:hover{
+filter: blur(2px);
+}
+.figure-caption{
+  line-height: 0.5;
+  color:#F3FEB8;
+  text-align: center;
+
+}
+
+/* crousel */
+.carousel-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color:  #FFDE4D !important;
+  border: none;
+}
+
+.carousel-indicators .active {
+  background-color: #FF4C4C !important;
+}
+/* social media platforms by cards  */
+
+#social_madia_icon{
+  padding: 50px 60px;
+align-items: center;
+display: flex;
+justify-content: center;
+/* min-height: 100vh;  */
+/* Full viewport height to center vertically */
+}
+.card{
+  background-color: #FFDE4D;
+}
